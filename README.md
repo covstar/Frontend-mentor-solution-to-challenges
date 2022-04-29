@@ -1,1 +1,1 @@
-# Frontend-mentor-solution-to-challenges
+# stats-preview-card-component-solution
