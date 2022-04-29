@@ -1,0 +1,101 @@
+/* 1st secton */
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #090b1a;
+    font-family: 'Ubuntu', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+section{
+    margin: 19.5% 7.5%;
+    border-radius: 7.5px;
+    background-color: #4a0080;
+}
+.mobile{
+    border-radius: 8px 8px 0 0;
+    display: block;
+    width: 100%;
+}
+.desktop{
+    display: none;
+    width: 50%;
+    border-radius: 0 8px 8px 0;
+}
+
+.card-body{
+    background-color: #1b1938;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 8% 2%;
+    border-radius: 0 0 8px 8px;
+}
+span{
+    color: #c573ff;
+}
+/* 2nd Section */
+li{
+    list-style-type: none;
+    font-family: "ubuntu";
+    margin-bottom: 10%;
+    color: #9a969b;
+    font-size: .7rem;
+}
+h1, h2{
+    color: white;
+    
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 5%;
+}
+h2{
+    font-size: 1.5rem;
+}
+p{
+    color: #9a969b;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 5%;
+}
+
+.row{
+    margin-top: 15%;
+    
+}
+/* 3rd Section */
+@media only screen and (min-width: 768px){
+    .card-body{
+        text-align: left;
+        padding: 7% 11% 7% 8%;
+        border-radius: 8px 0 0 8px;
+        width: 50%;
+    }
+    section{
+        margin: 12%;
+    }
+    h2{
+        
+        font-size: 1.5rem;
+    }
+    section{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+    p{
+        padding-left: 0;
+        font-size: .7em;
+        font-family: sans-serif;
+    }
+    
+    li{
+        width: 33%;
+        line-height: .5;
+    }
+
+}
